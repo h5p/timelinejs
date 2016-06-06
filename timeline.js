@@ -4,8 +4,8 @@ TimelineJS = (function ($) {
     // we have tp provide it from runnable library using me
     var libraryPath = 'TimelineJS-' + major + '.' + minor;
 
-    options.js = H5P.getLibraryPath(libraryPath) + '/js/timeline-min.js';
-    options.css = H5P.getLibraryPath(libraryPath) +'/css/timeline.css';
+    // Set this global variable to inform TimelineJS where all CSS/JS is placed
+    window.embed_path = H5P.getLibraryPath(libraryPath) + '/';
 
     createStoryJS(options);
   };
