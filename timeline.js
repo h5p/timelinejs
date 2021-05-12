@@ -6,8 +6,8 @@ TimelineJS = (function ($) {
     var libraryPath = 'TimelineJS-' + major + '.' + minor;
 
     // Inform TimelineJS where all CSS/JS is placed
-    $.extend(true, {}, {
-      script_path: H5P.getLibraryPath(libraryPath) + '/'
+    options = $.extend(true, {}, {
+      script_path: new URL('.' + H5P.getLibraryPath(libraryPath) + '/js/', location.href).toString()
     }, options);
 
     return new TL.Timeline(id, data, options);
