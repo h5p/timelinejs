@@ -1,8 +1,10 @@
-/*	Font Playfair & Fauna One & Unica One
+/*	Font Default
+----------------------------------------------------- */
+/*	Font PT Sans & PT Serif & PT Sans Narrow
 
-https://www.google.com/fonts/specimen/Playfair+Display
-https://www.google.com/fonts/specimen/Fauna+One
-https://www.google.com/fonts/specimen/Unica+One
+http://www.google.com/webfonts/specimen/PT+Sans+Narrow
+http://www.google.com/webfonts/specimen/PT+Sans
+http://www.google.com/webfonts/specimen/PT+Serif
 ----------------------------------------------------- */
 /*	VARIABLES
 	BASE
@@ -22,41 +24,35 @@ https://www.google.com/fonts/specimen/Unica+One
 /* GFX
 ================================================== */
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf) format('truetype');
+  src: url(PT_Sans_OpenFontLicense.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Playfair Display';
+  font-family: 'PT Sans Narrow';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtY.ttf) format('truetype');
+  src: url(PT_Sans_OpenFontLicense.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Playfair Display SC';
-  font-style: normal;
+  font-family: 'PT Serif';
+  font-style: italic;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/playfairdisplaysc/v10/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMFQ.ttf) format('truetype');
+  src: url(PT_Serif_italic_OpenFontLicense.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Fauna One';
+  font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/faunaone/v8/wlpzgwTPBVpjpCuwkuEB3kZP.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Unica One';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/unicaone/v8/DPEuYwWHyAYGVTSmalsRcd3b.ttf) format('truetype');
+  src: url(PT_Serif_OpenFontLicense.ttf) format('truetype');
 }
 /*	Font Base
 ----------------------------------------------------- */
 .tl-timeline {
-  font-family: 'Fauna One', serif;
+  font-family: 'PT Serif', serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.3em;
 }
 .tl-timeline h1,
@@ -65,9 +61,9 @@ https://www.google.com/fonts/specimen/Unica+One
 .tl-timeline h4,
 .tl-timeline h5,
 .tl-timeline h6 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 46px;
   line-height: 46px;
 }
@@ -76,35 +72,35 @@ https://www.google.com/fonts/specimen/Unica+One
   line-height: 58px;
 }
 .tl-timeline p {
-  font-family: 'Fauna One', serif;
-  font-size: 17px;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
   line-height: 1.3em;
 }
 .tl-timeline ul {
-  font-family: 'Fauna One', serif;
+  font-family: 'PT Serif', serif;
 }
 .tl-timeline .tl-media .tl-media-wikipedia h4 a,
 .tl-timeline .tl-media h4,
 .tl-timeline .tl-media h4 a {
-  font-family: 'Fauna One', serif;
-  font-weight: 400;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 24px;
 }
 .tl-timeline .tl-caption,
 .tl-timeline .tl-credit {
-  font-family: 'Fauna One', serif;
+  font-family: 'PT Serif', serif;
 }
 .tl-timeline .vcard {
-  font-family: 'Unica One', 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif !important;
+  font-family: 'PT Sans Narrow', sans-serif !important;
   font-weight: normal !important;
 }
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous,
 .tl-timeline .tl-message,
 .tl-timeline .tl-timegroup-message {
-  font-family: 'Unica One', 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif;
-  font-weight: 400;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .tl-timeline .tl-slidenav-next .tl-slidenav-title,
@@ -115,7 +111,7 @@ https://www.google.com/fonts/specimen/Unica+One
 }
 .tl-timeline .tl-headline-date,
 .tl-timeline h3.tl-headline-date {
-  font-family: 'Unica One', 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif !important;
+  font-family: 'PT Sans Narrow', sans-serif !important;
   font-weight: normal !important;
   text-transform: uppercase !important;
 }
@@ -124,33 +120,36 @@ https://www.google.com/fonts/specimen/Unica+One
   font-weight: normal !important;
 }
 .tl-timeline .tl-timenav-slider {
-  font-family: 'Unica One', 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif;
-  font-weight: 400;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
 }
 .tl-timeline .tl-timenav-slider h2.tl-headline {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-weight: 400;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
   text-transform: none;
 }
 .tl-timeline .tl-timenav-slider .tl-timeaxis {
-  font-family: 'Unica One', 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif;
-  font-weight: 400;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .tl-timeline .tl-menubar {
-  font-family: 'Unica One', 'Helvetica Neue', Helvetica, Arial, "MS Trebuchet", sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 .tl-timeline blockquote,
 .tl-timeline blockquote p {
-  font-family: 'Fauna One', serif;
+  font-family: 'PT Serif', serif;
   font-style: italic;
   font-weight: 400;
   line-height: 1.3;
 }
 input[type="text"].editor-headline {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 46px;
   line-height: 46px;
+}
+.tl-timeline .tl-timenav-slider .tl-timeaxis {
+  font-weight: normal;
 }

@@ -7,7 +7,8 @@ TimelineJS = (function ($) {
 
     // Inform TimelineJS where all CSS/JS is placed
     options = $.extend(true, {}, {
-      script_path: new URL('.' + H5P.getLibraryPath(libraryPath) + '/js/', location.href).toString()
+      'script_path': new URL('.' + H5P.getLibraryPath(libraryPath) + '/js/', location.href).toString(),
+      'font':  new URL('.' + H5P.getLibraryPath(libraryPath) + '/css/fonts/font.default-privacy.css', location.href).toString()
     }, options);
 
     return new TL.Timeline(id, data, options);
