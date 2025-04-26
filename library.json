@@ -4,7 +4,7 @@
   "majorVersion": 1,
   "minorVersion": 1,
   "patchVersion": 1,
-  "descripion": "A Storytelling Timeline built in JavaScript. http://timeline.knightlab.com. Version 2.36.0",
+  "description": "A Storytelling Timeline built in JavaScript. http://timeline.knightlab.com. Version 2.36.0",
   "machineName": "TimelineJS",
   "runnable": 0,
   "author": "KnightLab",
